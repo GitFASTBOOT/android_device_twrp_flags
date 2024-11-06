@@ -1,3 +1,6 @@
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
 #recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
