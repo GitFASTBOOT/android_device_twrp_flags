@@ -15,3 +15,12 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_INCLUDE_DTB_IN_BOOTIMG := 
 endif
+
+# this what you need to define you can use any tool to read and extract boot to know 
+#BOARD_BOOTIMG_HEADER_VERSION := 2
+#BOARD_KERNEL_BASE := 0x40078000
+#BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 
+#BOARD_KERNEL_PAGESIZE := 2048
+#BOARD_RAMDISK_OFFSET := 0x07c08000
+#BOARD_KERNEL_TAGS_OFFSET := 0x0bc08000
+#also you will need to put the kernel and dtb.img from boot dump to prebuilt folder
