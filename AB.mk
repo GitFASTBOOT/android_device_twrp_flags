@@ -2,8 +2,9 @@
 ENABLE_VIRTUAL_AB := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
+#TW_NO_FASTBOOT_BOOT := true   #if your device does not support fastboot quick boot  and face system reboot fail remove # 
 
-# A/B
+#A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     system \
