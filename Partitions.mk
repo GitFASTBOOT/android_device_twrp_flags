@@ -20,3 +20,7 @@ BOARD_SUPER_PARTITION_GROUPS := main
 BOARD_MAIN_PARTITION_LIST := system system_ext vendor product
 BOARD_MAIN_SIZE :=9122611200 
 
+# this what you need to define
+#BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432   #(32mb)
+#BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864   #(64mb)
+#also make sure the super size is correct
